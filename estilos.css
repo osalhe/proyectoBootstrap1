@@ -1,0 +1,82 @@
+.Titulo{
+    background-color: black;
+    border: black solid 3px;
+}
+.texto{
+    color: white;
+    text-indent: 0.5em;
+}
+
+
+.filagris{
+    background-color: #cac7c7;
+    border: black;
+          
+        
+}
+.texto2{
+    text-indent: 0.5em;
+    margin-top: 1em;  
+
+}
+.texto3{
+    text-align: justify;
+    margin-left: 1.5em;
+    text-align: left;
+}
+.texto4{
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+main a{
+    margin-left: 1.5em;
+
+}
+section{
+    margin-top: 50px;
+    text-align: justify;
+    border-radius: black solid 2px;
+}
+.borde{
+    border: black solid 1px;
+    
+}
+.footer{
+    text-align: center;        
+    background-color: grey;
+    color: white;
+    margin-top: 3em;
+    height: 200px;
+}
+
+@media screen and (max-width:768px){
+    section h4{
+        text-align: center;
+    }
+}
+@media screen and (max-width:768px){
+    section a {
+        margin-left: 19em;        
+    }
+}
+@media screen and (max-width:768px){
+    .filagris{
+        text-align: center;
+        background-color: white;        
+    }
+}
+@media screen and (max-width:768px){
+    .footer{
+        text-align: center;
+        margin-top: -0.1em;                       
+    }
+}
+@media screen and (max-width:768px){
+    .borde{
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+                               
+    }
+    
+}
